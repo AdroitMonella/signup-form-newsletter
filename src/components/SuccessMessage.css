@@ -1,0 +1,50 @@
+textarea, select, input, button { outline: none; }
+
+.success-message-container{
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.text-container{
+  margin: 0px;
+  max-width: 100%;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.dismiss-button{
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 175px;
+  margin-bottom: 25px;
+  height: 50px;
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+}
+
+.dismiss-button:hover{
+
+  background-color:hsl(4, 100%, 67%);
+  border: none;
+}
+
+@media only screen and (min-width: 1440px){
+  .success-message-container{
+    height: 410px;
+    padding: 30px;
+    margin-top: 250px;
+  }
+
+  .illustration-success{
+    width:50px;
+    padding: 0px;
+  }
+
+
+  .dismiss-button{
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}
